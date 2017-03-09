@@ -1,9 +1,7 @@
-<h1>
-  {{title}}
-</h1>
-<div class="card">
+
+<div class="card" *ngFor="let movie of movies">
   <img src="./assets/poster.jpg" alt="" position="center">
-  <div class="title">Star Wars: The Force Awakens</div>
+  <div class="title">{{movie}}</div>
   <div class="stars">
     <img class="star" src="./assets/star_filled.png"><img class="star" src="./assets/star_filled.png"><img class="star" src="./assets/star_filled.png"><img class="star" src="./assets/star_filled.png"><img src="./assets/star_empty.png" alt="">
   </div>
