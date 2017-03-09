@@ -1,0 +1,43 @@
+.card {
+    padding: 1.5em 4em 5em 4em;   
+    border:1px solid gray;
+    width: 25em;
+}
+
+.title {
+    font-size: 2em;
+    width:100%;
+}
+
+.stars {
+    text-align: center;
+}
+.star {
+    max-height: 150em;
+    max-width: 150em;
+}
+
+.price {
+    font-size: 2em;
+    text-align: center;
+    width:100%;
+    display: inline-block;
+}
+
+.strikethrough {
+    text-decoration: line-through
+}
+
+button {
+    background-color: yellow;
+    font-size: 2em;
+    text-align: center;
+    width: 100%;
+    padding-left: 1em;
+    padding-right: 1em;
+    display: inline-block;
+}
+
+button:hover {
+    background-color: red;
+}
